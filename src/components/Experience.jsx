@@ -52,7 +52,7 @@ export const Experience = () => {
           curvePoints[1].y,
           curvePoints[1].z
         ),
-        subtitle: `Hi Nhat Ha! This is Bach, your captain speaking! Welcome to your journey of a lifetime, right from your desktop!`,
+        subtitle: `Hi Nhat Ha! This is Bach, your captain speaking! Welcome to your journey of a lifetime, right from your desktop/mobile/any device!`,
       },
       {
         cameraRailDist: 1.5,
@@ -62,7 +62,7 @@ export const Experience = () => {
           curvePoints[2].z
         ),
         title: "Happy Birthday!!!!",
-        subtitle: `This is your 19th Birthday. Bach wish Ha the very best on everything (school, classes, work, food, etc)! Food is the most important though`,
+        subtitle: `This is your 19th Birthday. Bach wish Ha the very best on everything (school, classes, work, food, etc)! Food is the most important though. I know my baby has a lot of plans going ahead and I know you will achieve them all like you always did!`,
       },
       {
         cameraRailDist: -1,
