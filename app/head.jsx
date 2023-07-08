@@ -1,8 +1,8 @@
-const title = 'React Three Next Starter'
-const url = 'https://react-three-next.vercel.app/'
-const description = 'The easiest and fastest way to create a 3D website using React Three Fiber and NextJS'
-const author = 'Author'
-const twitter = '@pmndrs'
+const title = 'For Nhat Ha Happy Birthday!!!'
+const url = 'somewhere in ha'
+const description = 'A birthday gift to my baby!'
+const author = 'Bach Tran'
+const twitter = 'iu be ha'
 
 export default function Head() {
   return (
