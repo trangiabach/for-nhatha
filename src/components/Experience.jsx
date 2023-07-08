@@ -1,5 +1,5 @@
 import { Float, PerspectiveCamera, useScroll } from "@react-three/drei";
-import { useFrame } from "@react-three/fiber";
+import { useFrame, useLoader } from "@react-three/fiber";
 import { gsap } from "gsap";
 import { useEffect, useLayoutEffect, useMemo, useRef } from "react";
 import * as THREE from "three";
@@ -82,7 +82,7 @@ export const Experience = () => {
           curvePoints[4].z - 12
         ),
         title: "I love you",
-        subtitle: `I love you baby!`,
+        subtitle: `I love you baby! I LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE YOU SO SO SO SO SO SO SO SO SO MUCH MUCH MUCH MUCH MUCH`,
       },
     ];
   }, []);

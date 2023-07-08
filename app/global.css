@@ -80,7 +80,7 @@
   .logo {
     font-family: "DM Serif Display", serif;
     color: white;
-    font-size: 8rem;
+    font-size: 3rem;
     letter-spacing: 0.5rem;
     padding: 0;
     margin: 0;
@@ -89,6 +89,7 @@
     top: 50vh;
     animation: fadeUp 2.4s ease-in-out;
     transition: all 2s ease-in-out;
+    text-align: center;
   }
 
   .intro--disappear .logo {
