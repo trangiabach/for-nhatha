@@ -207,6 +207,9 @@
     font-family: "Inter", sans-serif;
     font-size: 1.5rem;
     color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   /* RESPONSIVE */
