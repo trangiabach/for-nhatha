@@ -15,7 +15,7 @@ export const Overlay = () => {
       {progress === 100 && (
         <div className={`intro ${play ? "intro--disappear" : ""}`}>
           <h1 className="logo">
-            FOR NHAT HA / FROM BACH
+            HAPPY NATIONAL GF DAY!!!
             <div className="spinner">
               <div className="spinner__image" />
             </div>
@@ -32,7 +32,7 @@ export const Overlay = () => {
         </div>
       )}
       <div className={`outro ${end ? "outro--appear" : ""}`}>
-        <p className="outro__text">I LOVE YOU AND HAPPY BIRTHDAY BABI!!! ALL THE BEST</p>
+        <p className="outro__text">I LOVE YOU AND HAPPY NATIONAL GF DAY BABI!!!</p>
       </div>
     </div>
   );

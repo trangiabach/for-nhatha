@@ -13,6 +13,7 @@ import { Heart } from "./Heart";
 import { Speed } from "./Speed";
 import { TextSection } from "./TextSection";
 import { Flower } from "./Flower";
+import { Ring } from "./Ring";
 
 const LINE_NB_POINTS = 1000;
 const CURVE_DISTANCE = 250;
@@ -551,7 +552,7 @@ export const Experience = () => {
 
         {/* CLOUDS */}
         {clouds.map((cloud, index) => (
-          <Heart sceneOpacity={sceneOpacity} {...cloud} key={index} />
+          <Ring sceneOpacity={sceneOpacity} {...cloud} key={index} />
         ))}
       </>
     ),
