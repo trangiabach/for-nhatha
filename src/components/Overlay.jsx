@@ -15,7 +15,7 @@ export const Overlay = () => {
       {progress === 100 && (
         <div className={`intro ${play ? "intro--disappear" : ""}`}>
           <h1 className="logo">
-            HAPPY NATIONAL GF DAY!!!
+            HAPPY 20/10 TO MY BABY
             <div className="spinner">
               <div className="spinner__image" />
             </div>

@@ -1,6 +1,6 @@
-const title = 'For Nhat Ha Happy Birthday!!!'
+const title = 'For Nhat Ha Happy 20/10!!!'
 const url = 'somewhere in ha'
-const description = 'A birthday gift to my baby!'
+const description = 'A 20/10 gift for Nhat Ha!'
 const author = 'Bach Tran'
 const twitter = 'iu be ha'
 

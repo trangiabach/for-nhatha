@@ -14,6 +14,7 @@ import { Speed } from "./Speed";
 import { TextSection } from "./TextSection";
 import { Flower } from "./Flower";
 import { Ring } from "./Ring";
+import { Dog } from "./Dog";
 
 const LINE_NB_POINTS = 1000;
 const CURVE_DISTANCE = 250;
@@ -62,8 +63,8 @@ export const Experience = () => {
           curvePoints[2].y,
           curvePoints[2].z
         ),
-        title: "Happy Birthday!!!!",
-        subtitle: `This is your 19th Birthday. Bach wish Ha the very best on everything (school, classes, work, food, etc)! Food is the most important though. I know my baby has a lot of plans going ahead and I know you will achieve them all like you always did!`,
+        title: "I love you",
+        subtitle: `Happy ngay 20/10!`,
       },
       {
         cameraRailDist: -1,
@@ -72,8 +73,8 @@ export const Experience = () => {
           curvePoints[3].y,
           curvePoints[3].z
         ),
-        title: "You are the best GF ever!",
-        subtitle: `You are the most precious thing that ever happen to me and I am super super proud of you and everyone is too!`,
+        title: "I love the Denver trip",
+        subtitle: `I really like everything, from Red Rock, Rocks Mountains to sleeping with you everyday!`,
       },
       {
         cameraRailDist: 1.5,
@@ -82,7 +83,7 @@ export const Experience = () => {
           curvePoints[4].y,
           curvePoints[4].z - 12
         ),
-        title: "I love you",
+        title: "AAAAAAAAAAA",
         subtitle: `I love you baby! I LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE LOVE YOU SO SO SO SO SO SO SO SO SO MUCH MUCH MUCH MUCH MUCH`,
       },
     ];
@@ -514,9 +515,9 @@ export const Experience = () => {
           </group>
           <group ref={airplane}>
             <Float floatIntensity={1} speed={1.5} rotationIntensity={0.5}>
-              <Flower
+              <Airplane
                 rotation-y={Math.PI / 2}
-                scale={[0.075, 0.075, 0.075]}
+                scale={[0.25, 0.25, 0.25]}
                 position-y={0.0005}
               />
             </Float>
@@ -552,7 +553,7 @@ export const Experience = () => {
 
         {/* CLOUDS */}
         {clouds.map((cloud, index) => (
-          <Ring sceneOpacity={sceneOpacity} {...cloud} key={index} />
+          <Dog sceneOpacity={sceneOpacity} {...cloud} key={index} />
         ))}
       </>
     ),
